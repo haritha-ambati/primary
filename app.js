@@ -11,7 +11,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/',(req,res)=>{
-  return res.send("Hi,This is Primary app !!!!!")
+  return res.send("Secondary app !!!!!")
 })
 
 app.listen(process.env.PORT||5000, () => console.log('Server started on port 5000'));
